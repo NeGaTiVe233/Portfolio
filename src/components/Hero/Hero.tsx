@@ -39,7 +39,8 @@ const Hero = () => {
             transition={{ duration: 0.5, delay: 0.8 }}
           >
             <motion.a
-              href="#contact"
+              onClick={()=>document.getElementById("contact")?.
+                scrollIntoView({behavior:"smooth"})}
               className={styles.cta}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
