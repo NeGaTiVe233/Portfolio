@@ -16,8 +16,6 @@ const Contact = () => {
     { icon: Mail, text: "kuzinartem73@gmail.com", href: "mailto:kuzinartem73@gmail.com" },
     { icon: Linkedin, text: "LinkedIn", href: "http://www.linkedin.com/in/kuzin-artem" },
     { icon: BriefcaseBusiness, text: "hh.ru", href: "https://hh.ru/resume/a830efd0ff0e67e1570039ed1f314d6268674f" },
-    // { icon: Github, text: "Github", href: "https://github.com/NeGaTiVe233" },
-
   ]
 
   return (
