@@ -4,6 +4,7 @@ import { motion } from "framer-motion"
 import Image from "next/image"
 import styles from "./Hero.module.css"
 import AnimatedText from "./AnimatedText"
+import { ChevronDown } from "lucide-react"
 
 const Hero = () => {
   return (
@@ -34,6 +35,7 @@ const Hero = () => {
             frontend applications using Next.js, React, TypeScript.          
           </p>
           <motion.div
+            className={styles.ctaContainer}
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.8 }}
@@ -47,6 +49,18 @@ const Hero = () => {
               transition={{ duration: 0.2 }}
             >
               <span className={styles.ctaText}>Get in Touch</span>
+            </motion.a>
+
+            <motion.a
+              onClick={()=>document.getElementById("about")?.
+                scrollIntoView({behavior:"smooth"})}
+              className={`${styles.cta} ${styles.secondaryCta}`}
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              transition={{ duration: 0.2 }}
+            >
+              <span className={styles.ctaText}>Learn More</span>
+              <ChevronDown className={styles.ctaIcon} />
             </motion.a>
           </motion.div>
         </motion.div>
