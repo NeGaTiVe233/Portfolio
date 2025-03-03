@@ -17,7 +17,6 @@ const Hero = () => {
         >
           <h1 className={styles.title}>
             Hi, I'm <AnimatedText text="Artem Kuzin" className={styles.highlight} color="#60a5fa" />
-            {/* Hi, I'm <span className={styles.highlight}>Artem Kuzin</span> */}
           </h1>
           <h2 className={styles.subtitle}>
             Frontend Developer
