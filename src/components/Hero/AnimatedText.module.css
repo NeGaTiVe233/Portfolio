@@ -1,0 +1,18 @@
+.animatedText {
+    display: inline-block;
+    transition: all 0.3s;
+    /* color: '#60a5fa' !important; */
+
+  }
+  
+  .char {
+    display: inline-block;
+    /* transition: color 0.3s, text-shadow 0.3s; */
+  }
+  
+  /* .char:hover {
+    color: #60a5fa;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  } */
+  
+  
